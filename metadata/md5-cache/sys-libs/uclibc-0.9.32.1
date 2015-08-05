@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	portability	a45c088f246ef5091e029f6285d7ce42	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	savedconfig	5313100f525c41f6c72c6e04edeb4f65	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=aa239a0483c5cbcdf18db5df8bb4313a
+SLOT=-pc-linux-uclibc
+DEFINED_PHASES=compile install postinst setup test unpack
+EAPI=0
+DEPEND=>=cross--pc-linux-uclibc/binutils-2.21.51.0.7
+DESCRIPTION=C library for developing embedded Linux systems
+LICENSE=LGPL-2
+IUSE=build uclibc-compat debug hardened ssp ipv6 minimal nptl wordexp crosscompile_opts_headers-only savedconfig
+RESTRICT=strip
+SRC_URI=http://uclibc.org/downloads/uClibc-0.9.32.1.tar.bz2
+KEYWORDS=-* ~amd64 ~arm ~m68k ~mips ~ppc ~sh ~sparc ~x86
+HOMEPAGE=http://www.uclibc.org/
